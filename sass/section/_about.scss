@@ -4,9 +4,12 @@
     justify-content: center;
     margin-bottom: 48px;
   }
+
   &__wrap {
     display: flex;
     flex-direction: column;
+    gap: 32px;
+
     @media screen and (min-width: 736px) {
       flex-direction: row;
       gap: 40px;
@@ -17,56 +20,92 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    :nth-child(-n + 2) {
+
+    p:nth-child(-n + 2) {
       font-weight: 200;
       font-size: 18px;
       line-height: 1.6;
 
-        @media screen and (min-width: 736px){
-      width: 344px;
-  }
+      @media screen and (min-width: 736px) {
+        width: 344px;
+      }
 
-        @media screen and (min-width: 1396px){
-width: 600px;
-  }
+      @media screen and (min-width: 1396px) {
+        width: 600px;
+      }
     }
   }
 
-  &__subtitle {
-    font-weight: 600;
-    margin-top: 48px;
-    margin-bottom: 15px;
-      @media screen and (min-width: 736px){
-  margin-top: 0;
-  }
-  }
-
-  &__list {
+  &__skills {
     display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+    flex-direction: column;
+    gap: 24px;
   }
 
-  &__text{
-    color: #8b5cf6;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
+  &__items {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  &__button{
+        padding: 8px 16px;
+    border-radius: 8px;
+    background: var(--color-azure-17, #1f2937);
+    border: none;
+
+        &.active {
+      background: #8b5cf6;
+      color: white;
+    }
   }
 
   &__btn {
-
     padding: 8px 16px;
     border-radius: 8px;
     background: var(--color-azure-17, #1f2937);
     border: none;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    gap: 8px;
+    font-weight: 600;
+    cursor: pointer;
+
+
   }
 
-  &__icon{
-width: 15px;
-fill: $button-color;
-height: 15px;
+  &__list {
+    display: none;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+      @media screen and (min-width: 358px){
+    width: 348px;           
+  }
+  @media screen and (min-width: 736px){
+   width: 300px;
+  }
+    @media screen and (min-width: 1396px){
+    width: 500px;
+  }
+
+    &.active {
+      display: flex;
+    }
+  }
+
+  &__text {
+    color: #8b5cf6;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-right: 8px;
+  }
+
+  &__icon {
+    width: 15px;
+    height: 15px;
+    fill: $button-color;
   }
 }

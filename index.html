@@ -39,23 +39,29 @@
     <h2 class="about__title">About Me</h2>
     <div class="about__wrap">
       <div class="about__desc">
-        <p>Hello! I'm Nazar, a motivated developer passionate about creating modern, intuitive, and user-friendly web experiences.
-I enjoy turning ideas into clean, functional, and engaging designs.</p>
-        <p>I thrive on turning complex problems into simple, beautiful, and
-functional designs, and I’m always eager to take on new challenges.</p>
+<p>Hello! I'm Nazar, a motivated web developer passionate about creating modern, intuitive, and user-friendly web experiences. I enjoy turning ideas into clean, functional, and engaging designs, ensuring every project I work on is visually appealing and technically robust. I also love collaborating with others to bring creative visions to life.</p>
+
+<p>I thrive on solving challenging problems and transforming complex concepts into simple, elegant solutions. I’m always eager to learn new technologies, improve my skills, and take on projects that push me to grow as a developer. In addition, I pay close attention to performance and accessibility to ensure my work reaches everyone effectively.</p>
+
       </div>
       <div class="about__skills">
-        <h3 class="about__subtitle">My Skills</h3>
-<ul class="about__list">
+        <ul class="about__items">
+            <li><button class="about__button btn-switch active" data-target="hard">Hard Skills</button></li>
+            <li><button class="about__button btn-switch" data-target="tools">Tools</button></li>
+            <li><button class="about__button btn-switch" data-target="soft">Soft Skills</button></li>
+        </ul>
+
+        <!-- HARD SKILLS -->
+<ul class="about__list active" id="hard">
   <li class="about__item">
     <button class="about__btn">
       <p class="about__text">HTML</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-half"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-half"></use></svg>
       </div>
     </button>
   </li>
@@ -63,11 +69,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">CSS</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-half"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-half"></use></svg>
       </div>
     </button>
   </li>
@@ -75,11 +81,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">JavaScript (ES6+)</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
@@ -87,39 +93,39 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">Sass &amp; Scss</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
   <li class="about__item">
     <button class="about__btn">
-      <p class="about__text">Boostrap</p>
+      <p class="about__text">Bootstrap</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
-
 </ul>
-        <h3 class="about__subtitle">My tools</h3>
-<ul class="about__list">
+
+        <!-- TOOLS -->
+<ul class="about__list" id="tools">
   <li class="about__item">
     <button class="about__btn">
       <p class="about__text">Git</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
@@ -127,11 +133,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">GitHub</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
@@ -139,11 +145,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">Vite</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
@@ -151,11 +157,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">Trello</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-half"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-half"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
@@ -163,26 +169,27 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">Figma</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
 </ul>
-        <h3 class="about__subtitle">Soft Skills</h3>
-<ul class="about__list">
+
+        <!-- SOFT SKILLS -->
+<ul class="about__list" id="soft">
   <li class="about__item">
     <button class="about__btn">
       <p class="about__text">Thinking</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
@@ -190,11 +197,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">Personal Growth</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
@@ -202,11 +209,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">Productivity & Learning</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-empty"></use></svg>
       </div>
     </button>
   </li>
@@ -214,11 +221,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">Communication & Interaction</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-half"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-half"></use></svg>
       </div>
     </button>
   </li>
@@ -226,11 +233,11 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <button class="about__btn">
       <p class="about__text">Self-awareness & Development</p>
       <div>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
-      <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
+        <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
       </div>
     </button>
   </li>
@@ -240,24 +247,81 @@ functional designs, and I’m always eager to take on new challenges.</p>
     </div>
   </div>
 </section>
-<!--
+
+
 <section class="projects">
   <div class="container">
     <h2 class="projects__title">My Projects</h2>
     <ul class="projects__list">
       <li class="projects__item">
-        <h3 class="projects__name"></h3>
-        <p class="projects__text"></p>
-        <button class="projects__btn"></button>
-        <button class="projects__btn"></button>
-        <button class="projects__btn"></button>
-        <button class="projects__btn"></button>
-        <img src="" alt="" class="projects__img">
-        <img src="" alt="" class="projects__img">
+        <h3 class="projects__name">Project One</h3>
+        <p class="projects__text">A brief and engaging description of your
+project. Talk about the problem it solves and
+the key features.</p>
+<div class="projects__wrap">
+    <div class="projects__gap">
+        <button class="projects__btn">html</button>
+        <button class="projects__btn">css</button>
+        <button class="projects__btn">js</button>
+        <button class="projects__btn">sass</button>
+        </div>
+        <div class="projects__gaping">
+        <svg class="projects__icon">
+            <use href="./symbol-defs-two.svg#icon-github"></use>
+        </svg>
+        <svg class="projects__icon">
+            <use href="./symbol-defs-two.svg#icon-sphere"></use>
+        </svg>
+        </div>
+        </div>
+
       </li>
-      <li class="projects__item">...</li>
-      <li class="projects__item">...</li>
-      <li class="projects__item">...</li>
+ <li class="projects__item">
+        <h3 class="projects__name">Project One</h3>
+        <p class="projects__text">A brief and engaging description of your
+project. Talk about the problem it solves and
+the key features.</p>
+<div class="projects__wrap">
+    <div class="projects__gap">
+        <button class="projects__btn">html</button>
+        <button class="projects__btn">css</button>
+        <button class="projects__btn">js</button>
+        <button class="projects__btn">sass</button>
+        </div>
+        <div class="projects__gaping">
+        <svg class="projects__icon">
+            <use href="./symbol-defs-two.svg#icon-github"></use>
+        </svg>
+        <svg class="projects__icon">
+            <use href="./symbol-defs-two.svg#icon-sphere"></use>
+        </svg>
+        </div>
+        </div>
+
+      </li>
+       <li class="projects__item">
+        <h3 class="projects__name">Project One</h3>
+        <p class="projects__text">A brief and engaging description of your
+project. Talk about the problem it solves and
+the key features.</p>
+<div class="projects__wrap">
+    <div class="projects__gap">
+        <button class="projects__btn">html</button>
+        <button class="projects__btn">css</button>
+        <button class="projects__btn">js</button>
+        <button class="projects__btn">sass</button>
+        </div>
+        <div class="projects__gaping">
+        <svg class="projects__icon">
+            <use href="./symbol-defs-two.svg#icon-github"></use>
+        </svg>
+        <svg class="projects__icon">
+            <use href="./symbol-defs-two.svg#icon-sphere"></use>
+        </svg>
+        </div>
+        </div>
+
+      </li>
     </ul>
   </div>
 </section>
@@ -267,19 +331,19 @@ functional designs, and I’m always eager to take on new challenges.</p>
     <h2 class="register__title">Get In Touch</h2>
     <form action="" class="register__form">
       <input type="text" class="register__input">
-      <input type="email" class="register__input">
+      <input type="email" class="register__input" type="email" id="email" name="email" required>
       <input type="text" class="register__input">
       <button type="button" class="register__btn">Send Message</button>
     </form>
   </div>
 </section>
-
+<!--
 <footer class="footer">
   <div class="container">
     <p class="footer__copy">© 2025 Daljeet Singh. All Rights Reserved.</p>
   </div>
 </footer> -->
 
-
+<script src="./js/btn.js"></script>
 </body>
 </html>

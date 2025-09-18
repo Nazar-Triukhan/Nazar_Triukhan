@@ -1,0 +1,72 @@
+.projects{
+    padding: 50px 0 50px 0;
+    
+    &__title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+          @media screen and (min-width: 1396px){
+gap: 0;
+justify-content: space-between;
+  }
+    }
+
+    &__item{
+        background-color: $beck-color;
+        border-radius: 8px;
+background: var(--color-azure-17, #1F2937);
+padding: 25px;
+display: flex;
+flex-direction: column;
+gap: 12px;
+  @media screen and (min-width: 736px){
+   width: 302px;
+  }
+
+    @media screen and (min-width: 1396px){
+        width: 350px;
+  }
+    }
+
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__text{
+        font-weight: 100;
+    }
+
+    &__gap{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    &__btn{
+padding: 4px 12px;
+    border-radius: 8px;
+    color: $button-color;
+    background: #111827;
+    border: none;
+    }
+
+    &__gaping{
+        display: flex;
+        gap: 12px;
+    }
+
+
+
+    &__icon{
+        fill: #fff;
+        width: 20px;
+        height: 20px;
+    }
+}
