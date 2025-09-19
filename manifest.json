@@ -1,0 +1,20 @@
+{
+  "name": "Triukhan Nazar — Портфоліо",
+  "short_name": "TriukhanPWA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "icons": [
+    {
+      "src": "./rfff.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./rfff.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
