@@ -4,3 +4,13 @@ background: linear-gradient(0deg, var(--color-azure-11, #111827) 0%, var(--color
 h1,h2,h3,p,a,button{
     color: #F9FAFB; 
 }
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* чтобы фон был за контентом */
+  background: linear-gradient(0deg, #111827 0%, #1f2937 100%);
+  pointer-events: auto;
+}
