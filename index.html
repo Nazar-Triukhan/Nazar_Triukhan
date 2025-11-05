@@ -1,7 +1,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <html lang="en"></html>
+<html lang="en">
   <title>Triukhan Nazar — Портфоліо веб-розробника</title>
   <meta name="description" content="Портфоліо Triukhan Nazar — створення сайтів, веб-розробка, дизайн. Приклади робіт та контакти.">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -11,53 +11,59 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="manifest" href="./manifest.json">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="dist/css/main.min.css">
 </head>
-<body>
+<body id="intro">
 <header class="header">
   <div class="container header__box">
-    <a href="" class="header__logo">Triukhan Nazar</a>
+    <a href="" class="header__logo" data-aos="flip-up">Triukhan Nazar</a>
     <ul class="header__nav">
-      <li class="header__item"><a href="" class="header__link">About</a></li>
-      <li class="header__item"><a href="" class="header__link">Projects</a></li>
-      <li class="header__item"><a href="" class="header__link">Contact</a></li>
+      <li class="header__item"><a href="" class="header__link" data-aos="flip-up">About</a></li>
+      <li class="header__item"><a href="" class="header__link" data-aos="flip-up">Projects</a></li>
+      <li class="header__item"><a href="" class="header__link" data-aos="flip-up">Contact</a></li>
     </ul>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
-    <h1 class="hero__title">Hey!, I'm Nazar Triukhan</h1>
-    <p class="hero__text">A Creative Developer Building Modern Web Experiences.</p>
+<h1 class="hero__title" id="jump-title" data-aos="fade-up">Hey!, I'm Nazar Triukhan</h1>
+<h2 class="hero__title">
+  <span data-aos="fade-up">I'm </span><span id="typed"></span>
+</h2>
+    <p class="hero__text" data-aos="fade-up">A Creative Developer Building Modern Web Experiences.</p>
     <div class="hero__wrap">
-    <a href="" class="hero__link">View My Work</a>
-    <button class="hero__btn">Download Resume</button>
+    <a href="" class="hero__link" data-aos="flip-up">View My Work</a>
+    <button class="hero__btn" data-aos="flip-up">Download Resume</button>
     </div>
   </div>
 </section>
 
 <section class="about">
   <div class="container">
-    <h2 class="about__title">About Me</h2>
+    <h2 class="about__title" id="jump-text" data-aos="fade-up">About Me</h2>
     <div class="about__wrap">
       <div class="about__desc">
-<p>Hello! I'm Nazar, a motivated web developer passionate about creating modern, intuitive, and user-friendly web experiences. I enjoy turning ideas into clean, functional, and engaging designs, ensuring every project I work on is visually appealing and technically robust. I also love collaborating with others to bring creative visions to life.</p>
+<p data-aos="fade-up">Hello! I'm Nazar, a motivated web developer passionate about creating modern, intuitive, and user-friendly web experiences. I enjoy turning ideas into clean, functional, and engaging designs, ensuring every project I work on is visually appealing and technically robust. I also love collaborating with others to bring creative visions to life.</p>
 
-<p>I thrive on solving challenging problems and transforming complex concepts into simple, elegant solutions. I’m always eager to learn new technologies, improve my skills, and take on projects that push me to grow as a developer. In addition, I pay close attention to performance and accessibility to ensure my work reaches everyone effectively.</p>
+<p data-aos="fade-up">I thrive on solving challenging problems and transforming complex concepts into simple, elegant solutions. I’m always eager to learn new technologies, improve my skills, and take on projects that push me to grow as a developer. In addition, I pay close attention to performance and accessibility to ensure my work reaches everyone effectively.</p>
 
       </div>
       <div class="about__skills">
         <ul class="about__items">
-            <li><button class="about__button btn-switch active" data-target="hard">Hard Skills</button></li>
-            <li><button class="about__button btn-switch" data-target="tools">Tools</button></li>
-            <li><button class="about__button btn-switch" data-target="soft">Soft Skills</button></li>
+            <li><button class="about__button btn-switch active" data-target="hard" data-aos="fade-up"
+     data-aos-duration="500">Hard Skills</button></li>
+            <li><button class="about__button btn-switch" data-target="tools" data-aos="fade-up"
+     data-aos-duration="500">Tools</button></li>
+            <li><button class="about__button btn-switch" data-target="soft" data-aos="fade-up"
+     data-aos-duration="500">Soft Skills</button></li>
         </ul>
 
         <!-- HARD SKILLS -->
 <ul class="about__list active" id="hard">
   <li class="about__item">
-    <button class="about__btn">
+    <button class="about__btn" data-aos="zoom-in">
       <p class="about__text">HTML</p>
       <div>
         <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
@@ -69,7 +75,7 @@
     </button>
   </li>
   <li class="about__item">
-    <button class="about__btn">
+    <button class="about__btn" data-aos="zoom-in">
       <p class="about__text">CSS</p>
       <div>
         <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
@@ -81,7 +87,7 @@
     </button>
   </li>
   <li class="about__item">
-    <button class="about__btn">
+    <button class="about__btn" data-aos="zoom-in">
       <p class="about__text">JavaScript (ES6+)</p>
       <div>
         <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
@@ -93,7 +99,7 @@
     </button>
   </li>
   <li class="about__item">
-    <button class="about__btn">
+    <button class="about__btn" data-aos="zoom-in">
       <p class="about__text">Sass &amp; Scss</p>
       <div>
         <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
@@ -105,7 +111,7 @@
     </button>
   </li>
   <li class="about__item">
-    <button class="about__btn">
+    <button class="about__btn" data-aos="zoom-in">
       <p class="about__text">Bootstrap</p>
       <div>
         <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
@@ -121,7 +127,7 @@
         <!-- TOOLS -->
 <ul class="about__list" id="tools">
   <li class="about__item">
-    <button class="about__btn">
+    <button class="about__btn" >
       <p class="about__text">Git</p>
       <div>
         <svg class="about__icon"><use href="./symbol-defs.svg#icon-star-full"></use></svg>
@@ -254,13 +260,13 @@
 
 <section class="projects">
   <div class="container">
-    <h2 class="projects__title">My Projects</h2>
+    <h2 class="projects__title" data-aos="fade-up">My Projects</h2>
     <ul class="projects__list">
-      <li class="projects__item">
+      <li class="projects__item" data-aos="flip-left">
         <h3 class="projects__name">Max Pro</h3>
         <p class="projects__text">
 This is my first order in which I used my knowledge correctly and clearly.</p>
-<div class="projects__wrap">
+<div class="projects__wrap" >
     <div class="projects__gap">
         <button class="projects__btn">html</button>
         <button class="projects__btn">css</button>
@@ -282,7 +288,7 @@ This is my first order in which I used my knowledge correctly and clearly.</p>
         </div>
 
       </li>
- <li class="projects__item">
+ <li class="projects__item" data-aos="flip-up">
         <h3 class="projects__name">Hellish Engleash</h3>
         <p class="projects__text">This is my first team project where I was a team leader. I made a section and helped others with the development.</p>
 <div class="projects__wrap">
@@ -308,7 +314,7 @@ This is my first order in which I used my knowledge correctly and clearly.</p>
         </div>
 
       </li>
-       <li class="projects__item">
+       <li class="projects__item" data-aos="flip-right">
         <h3 class="projects__name">Web Studio</h3>
         <p class="projects__text">my first project in my career in which I used the functions I learned and much more</p>
 <div class="projects__wrap">
@@ -338,26 +344,38 @@ This is my first order in which I used my knowledge correctly and clearly.</p>
 
 <section class="register">
   <div class="container">
-    <h2 class="register__title">Get In Touch</h2>
+    <h2 class="register__title" data-aos="fade-up">Get In Touch</h2>
     <form action="" class="register__form">
-      <p class="register__text">name</p>
-      <input type="text" class="register__input">
-      <p class="register__text">email</p>
-      <input type="email" class="register__input" type="email" id="email" name="email" required>
-<p class="register__text">Message</p>
-     <textarea class="register__input" name="message"></textarea>
-      <button type="button" class="register__btn">Send Message</button>
+      <p class="register__text" data-aos="fade-up">name</p>
+      <input type="text" class="register__input" data-aos="fade-up">
+      <p class="register__text" data-aos="fade-up">email</p>
+      <input type="email" class="register__input" type="email" id="email" name="email" required data-aos="fade-up">
+<p class="register__text" data-aos="fade-up">Message</p>
+     <textarea class="register__input" name="message" data-aos="fade-up"></textarea>
+      <button type="button" class="register__btn" data-aos="fade-up">Send Message</button>
     </form>
   </div>
 </section>
 
 <footer class="footer">
   <div class="container">
-    <p class="footer__copy">© 2025 Nazar Triukhan. All Rights Reserved.</p>
+    <p class="footer__copy" >© 2025 Nazar Triukhan. All Rights Reserved.</p>
   </div>
 </footer>
+
 <script src="./js/btn.js"></script>
 <script src="./pwa.js"></script>
 <script src="./js/form.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="./js/text.js"></script>
+<script src="./js/jump-text.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="three.min.js"></script>
+<script src="vanta.birds.min.js"></script>
+<script src="app.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>

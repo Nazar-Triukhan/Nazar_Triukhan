@@ -1,5 +1,5 @@
 .header {
-  background-color: $beck-color;
+  // background-color: ;
   display: flex;
   flex-wrap: wrap;
   padding: 20px 0;
@@ -14,6 +14,13 @@
     line-height: 1.4;
     font-weight: 600;
     width: 100px;
+        display: block;
+
+    transition: color 400ms ease-in,transform 400ms ease-in;
+    &:hover{
+      color: rgb(1, 1, 255);
+      transform: translateY(5px);
+    }
     @media screen and (min-width: 358px) {
       margin-right: auto;
     }
@@ -26,5 +33,15 @@
     display: flex;
     gap: 20px;
     align-items: center;
+  }
+
+  &__link{
+    display: block;
+
+    transition: color 400ms ease-in,transform 400ms ease-in;
+    &:hover{
+      color: rgb(1, 1, 255);
+      transform: scale(1.2);
+    }
   }
 }
