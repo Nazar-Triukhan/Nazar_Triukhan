@@ -44,8 +44,9 @@ img {
 }
 
 body {
-  background: linear-gradient(0deg, var(--color-azure-11, #111827) 0%, var(--color-azure-11, #111827) 100%), var(--color-white-solid, #FFF);
+  background: transparent;
   font-family: Inter;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, p, a, button {
@@ -58,9 +59,10 @@ h1, h2, h3, p, a, button {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* чтобы фон был за контентом */
-  background: linear-gradient(0deg, #111827 0%, #1f2937 100%);
-  pointer-events: auto;
+  z-index: -1;
+  pointer-events: none;
+  /* Темний неоновий фон */
+  background-color: #0F0F12;
 }
 
 .header {
@@ -430,6 +432,10 @@ h1, h2, h3, p, a, button {
   fill: #fff;
   width: 20px;
   height: 20px;
+}
+.projects__img {
+  width: 350px;
+  height: 190px;
 }
 
 .register {
